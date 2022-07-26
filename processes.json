@@ -1,0 +1,13 @@
+{
+	"apps": [
+		{
+			"name": "My cron",
+			"script": "./jobs/my_cron.js",
+			"instances": 1,
+			"exec_mode": "fork",
+			"cron_restart": "* * * * *",
+			"watch": false,
+			"autorestart": false
+		}
+	]
+}
